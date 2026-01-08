@@ -1,0 +1,26 @@
+{
+  "name": "@vitax/js",
+  "version": "1.0.0",
+  "description": "Vitax API client",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "vitax",
+    "api"
+  ],
+  "author": "Vitax",
+  "license": "GPL-3.0-only",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
